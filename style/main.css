@@ -16,7 +16,7 @@ Elementos Base--------------------------------------
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -94,14 +94,7 @@ Filme Principal ------------------------------------
 
 
 /*
-# wrapper = envelopar
-nesse caso o container
-
-Trabalhou-se o conceito de classes wrapper, ou seja,
-uma classe container que serve de envelope para outros
-elementos na página.
-A classe wrapper facilita a manipulação de atributos 
-e personalização do grupo de elementos que compões o envelope
+# wrapper = envelopar = container
 */
 
 .container{
@@ -118,3 +111,7 @@ e personalização do grupo de elementos que compões o envelope
     display: block;
 }
 
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
