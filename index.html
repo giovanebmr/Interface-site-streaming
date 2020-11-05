@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <!-- RESPONSIVIDADE -->
+    <link rel="stylesheet" href="style/resposive.css">
+    <!-- https://owlcarousel2.github.io/OwlCarousel2/ -->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
     <title>Recriando a Interface do Netflix</title>
 </head>
 <body>
@@ -18,5 +23,42 @@
            </nav>
        </div>
    </header>
+
+   <main>
+       <div class="filme-principal">
+           <div class="container">
+               <h3 class="titulo">Lorem Ipsum</h3>
+               <p class="descricao">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. </p>
+               <div class="botoes">
+                <button role="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÔES
+                </button>
+           </div>
+           </div>
+       </div>
+   </main>
+   <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="img/min1.jpg">
+        </div>
+        <div class="item">
+            <img src="img/min2.jpg">
+        </div>
+        <div class="item">
+            <img src="img/min3.jpg">
+        </div>
+        <div class="item">
+            <img src="img/min4.jpg">
+        </div>
+   </div>
+   <script src="https://kit.fontawesome.com/c7664b1476.js" crossorigin="anonymous"></script>
+   <script src="owl/jquery.min.js"></script>
+   <script src="owl/owl.carousel.min.js"></script>
+   <script src="owl/setup.js"></script>
 </body>
 </html>
